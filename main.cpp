@@ -33,6 +33,8 @@ int main()
     cout << s4 << " < " << s5 << ": " << (s4 < s5) << endl;    // supraincarcare <
     s4.Set("aaa");
     cout << s4 << " < " << s5 << ": " << (s4 < s5) << endl;
+    s5.Set("aaab");
+    cout << s4 << " < " << s5 << ": " << (s4 < s5) << endl;
 
     Sir s6(s4);              // constructor de copiere
 
