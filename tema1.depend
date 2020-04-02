@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1585769573 source:d:\theo\info\laboratoare fac\poo\tema1\main.cpp
+1585821696 source:d:\theo\info\laboratoare fac\poo\tema1\main.cpp
 	<iostream>
 	"sir.cpp"
 
-1585769666 d:\theo\info\laboratoare fac\poo\tema1\sir.cpp
+1585821722 d:\theo\info\laboratoare fac\poo\tema1\sir.cpp
 	<iostream>
 	"sir.h"
 
-1585768249 d:\theo\info\laboratoare fac\poo\tema1\sir.h
+1585770267 d:\theo\info\laboratoare fac\poo\tema1\sir.h
 

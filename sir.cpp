@@ -151,13 +151,6 @@ ostream& operator<<(ostream& out, const Sir& str)
 
 istream& operator>>(istream& in, Sir& str)
 {
-    delete[] str.s;
-    char* val;
-    in >> val;
-    int nr;
-    for(nr = 0; val[nr] != '\0'; nr++);
-    str.s = new char[nr + 1];
-    for(int i = 0; i <= nr; i++)
-        str.s[i] = val[i];
+    in>>str.s;
     return in;
 }
